@@ -238,6 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 1
+  oribitSpeed: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 1000
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,11 +693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.09
+      value: 2.41
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3951
+      value: 2.18
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.z
@@ -781,6 +785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 1000
 --- !u!1001 &1401735614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -888,6 +894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 1000
 --- !u!1001 &1518798630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -995,6 +1003,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 1000
 --- !u!1001 &1742917902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1113,6 +1123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 100
 --- !u!1001 &1946390875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1220,6 +1232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e3d3a3a81c5cb43bdb0b6146dc9c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  oribitSpeed: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
